@@ -31,6 +31,11 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+  gem 'therubyracer'
+  gem 'compass-rails'
+  gem 'sprockets', '2.11.0'
+  gem 'paperclip'
+  
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -38,10 +43,14 @@ group :development, :test do
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
-  gem 'pry-rails'
-  gem 'compass-rails'
-  gem 'sprockets', '2.11.0'
+
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'pry-rails'
+  gem 'sqlite3'
 end
 
+group :production do
+  gem 'mysql2'
+  gem 'rails_12factor'
+end
