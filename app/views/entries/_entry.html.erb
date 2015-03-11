@@ -1,0 +1,20 @@
+<div class="entry">
+  <p class="image"><img src="<%= entry.image_url || entry.avatar %>" width="278" alt="" /></p>
+  <div class="textarea">
+    <div class="evaluation">
+    <p class="button">
+      <a href="/entries/<%= entry.id %>">
+        <%= image_tag 'kawaii_btn.png' %>
+      </a>
+    </p>
+      <span class="point"><%= entry.rate %></span>
+    </div>
+    <h2><%= entry.name %></h2>
+    <p>年齢: <%= entry.age %></p>
+    <p>出身: <%= entry.hometown %></p>
+    <p>身長: <%= entry.height %>cm</p>
+    <p>一言アピール!<br> <div class="appeal"><%= entry.appeal %></span> </p>
+  </div>
+</div>
+</div>
+

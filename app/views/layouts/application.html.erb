@@ -4,11 +4,25 @@
   <title>MissSato</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= favicon_link_tag 'favicon.ico' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <div class="nav">
+    <ul>
+      <li><a href="/entries">HOME</a></li>
+      <li><a href="/rules">RULES</a></li>
+      <li><a href="/entries/new">ENTRY</a></li>
+      <li><a href="/about">ABOUT US</a></li>
+    </ul>
+  </div>
+
 
 <%= yield %>
+
+<footer>
+  <p>Copyright &copy;2015 Miss.Someone All Rights Reserved.</p>
+</footer>
 
 </body>
 </html>

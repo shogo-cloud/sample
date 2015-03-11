@@ -1,0 +1,71 @@
+// Place all the styles related to the entries controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+/*------------　部分テンプレート --------------*/
+.entry{
+  inline:block;
+  float:left;
+  margin-top:20px;
+  width:278px;
+  padding:10px 10px 10px 10px;
+  background-color:#fff;
+  border:1px solid #d7d7d7;
+  border-radius:5px 5px 5px 5px/ 5px 5px 5px 5px;
+  -webkit-column-break-inside: avoid;
+  -moz-column-break-inside: avoid;
+  -column-break-inside: avoid;
+}
+.entry .image{
+  margin:0 auto;
+}
+h2 {
+  font-size:24px;
+  color:#e76286;
+  margin:0;
+}
+.evaluation{
+  float:right;
+  clear:both;
+}
+.evaluation .button{
+  float:left;
+}
+.evaluation .point{
+  float:right;
+  border:1px solid #999;
+  width:30px;
+  height:30px;
+  text-align:center;
+  font-size:12px;
+  line-height:2.2;
+  margin-left:5px;
+  color:#62a7e7;
+}
+.entry p{
+  margin:0 auto;
+  color:#666666;
+  font-size:14px;
+}
+.appeal {
+  border:1px solid #d1d1d1;
+
+  padding:5px;
+  color:#666;
+  font-size:12px;
+}
+/*-----------------------------------*/
+.columns {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    -webkit-column-fill: auto;
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -moz-column-fill: auto;
+    column-count: 3;
+    column-gap: 20px;
+    column-fill: auto;
+}
