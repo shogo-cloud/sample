@@ -69,11 +69,7 @@ footer{
 
 
 /*------------　部分テンプレート --------------*/
-<<<<<<< HEAD
-@media screen and (min-width:641px){
-=======
 @media all and (min-width:481px){
->>>>>>> b878200b59e358f1b377d3c31a60e60e01725fb9
 .entry{
   inline:block;
   float:left;
@@ -138,71 +134,5 @@ h2 {
     column-fill: auto;
 }
 }
-<<<<<<< HEAD
-// Place all the styles related to the entries controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
 
 
-
-
-/*------------　部分テンプレート --------------*/
-@media screen and (max-width:640px){
-html{
-  width:640px;
-}
-.entry{
-  inline:block;
-  margin-top:20px;
-  width:278px;
-  padding:10px 10px 10px 10px;
-  background-color:#fff;
-  border:1px solid #d7d7d7;
-  border-radius:5px 5px 5px 5px/ 5px 5px 5px 5px;
-  margin:0 auto;
-  margin-bottom:20px;
-}
-.entry .image{
-  margin:0 auto;
-}
-h2 {
-  font-size:24px;
-  color:#e76286;
-  margin:0;
-}
-.evaluation{
-  float:right;
-  clear:both;
-}
-.evaluation .button{
-  float:left;
-}
-.evaluation .point{
-  float:right;
-  border:1px solid #999;
-  width:30px;
-  height:30px;
-  text-align:center;
-  font-size:12px;
-  line-height:2.2;
-  margin-left:5px;
-  color:#62a7e7;
-}
-.entry p{
-  margin:0 auto;
-  color:#666666;
-  font-size:14px;
-}
-.appeal {
-  border:1px solid #d1d1d1;
-
-  padding:5px;
-  color:#666;
-  font-size:12px;
-}
-}
-=======
-
-
-
->>>>>>> b878200b59e358f1b377d3c31a60e60e01725fb9
