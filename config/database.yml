@@ -50,5 +50,5 @@ test:
 production:
   <<: *default
   database: miss_sato_production
-  username: miss_sato
+  username: root
   password: <%= ENV['MISS_SATO_DATABASE_PASSWORD'] %>
