@@ -14,17 +14,22 @@
 ActiveRecord::Schema.define(version: 20150311170249) do
 
   create_table "entries", force: :cascade do |t|
-    t.text     "image_url",  limit: 65535
-    t.string   "name",       limit: 255
-    t.integer  "age",        limit: 4
-    t.integer  "height",     limit: 4
-    t.string   "hometown",   limit: 255
-    t.text     "url",        limit: 65535
-    t.datetime "created_at",               null: false
-    t.datetime "updated_at",               null: false
-    t.integer  "rate",       limit: 4
-    t.string   "phone",      limit: 255
-    t.string   "mail",       limit: 255
+    t.text     "image_url",           limit: 65535
+    t.string   "name",                limit: 255
+    t.integer  "age",                 limit: 4
+    t.integer  "height",              limit: 4
+    t.string   "hometown",            limit: 255
+    t.text     "url",                 limit: 65535
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.integer  "rate",                limit: 4
+    t.text     "appeal",              limit: 65535
+    t.string   "avatar_file_name",    limit: 255
+    t.string   "avatar_content_type", limit: 255
+    t.integer  "avatar_file_size",    limit: 4
+    t.datetime "avatar_updated_at"
+    t.string   "phone",               limit: 255
+    t.string   "mail",                limit: 255
   end
 
 end
