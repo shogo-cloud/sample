@@ -35,7 +35,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
   gem 'compass-rails'
   gem 'sprockets', '2.11.0'
   gem 'paperclip'
+<<<<<<< HEAD
   
+=======
+>>>>>>> b878200b59e358f1b377d3c31a60e60e01725fb9
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

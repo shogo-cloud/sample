@@ -10,8 +10,10 @@ class EntriesController < ApplicationController
   end
 
   def create
+
     rate = rand(4)
-    Entry.create(avatar: params[:entry][:avatar], name: params[:name], age: params[:age],  hometown: params[:hometown], height: params[:height], appeal: params[:appeal], rate: rate)
+    Entry.create(avatar: params[:entry][:avatar], name: params[:name], age: params[:age],  hometown: params[:hometown], height: params[:height], appeal: params[:appeal], phone: params[:phone], mail: params[:mail] ,rate: rate)
+
   end
 
   def update
@@ -25,7 +27,7 @@ class EntriesController < ApplicationController
 
   private
   def create_params
-    params.permit(:avatar, :image, :name, :age, :hometown, :height, :appeal, :rate )
+    params.permit(:avatar, :image, :name, :age, :hometown, :height, :appeal, :rate, :phone, :mail)
   end
 
   def update_params
