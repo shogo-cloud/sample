@@ -5,9 +5,9 @@
 
 
 /*------------　部分テンプレート --------------*/
-@media all and (max-width:480px){
+@media all and (max-width:640px){
 .html{
-  width:480px;
+  width:640px;
 }
 .content_middle{
   width:298px;
@@ -69,7 +69,7 @@ footer{
 
 
 /*------------　部分テンプレート --------------*/
-@media all and (min-width:481px){
+@media all and (min-width:641px){
 .entry{
   inline:block;
   float:left;
