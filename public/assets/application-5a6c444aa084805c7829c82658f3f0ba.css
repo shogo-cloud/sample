@@ -1,4 +1,87 @@
-@media screen and (min-width: 640px){
+@charset "UTF-8";
+/*------------　部分テンプレート --------------*/
+@media screen and (min-width: 769px) {
+  /* line 11, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .entry {
+    inline: block;
+    float: left;
+    margin-top: 20px;
+    width: 278px;
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px 5px 5px 5px/ 5px 5px 5px 5px;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    -column-break-inside: avoid;
+  }
+
+  /* line 24, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .entry .image {
+    margin: 0 auto;
+  }
+
+  /* line 27, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  h2 {
+    font-size: 24px;
+    color: #e76286;
+    margin: 0;
+  }
+
+  /* line 32, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .evaluation {
+    float: right;
+    clear: both;
+  }
+
+  /* line 36, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .evaluation .button {
+    float: left;
+  }
+
+  /* line 39, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .evaluation .point {
+    float: right;
+    border: 1px solid #999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 2.2;
+    margin-left: 5px;
+    color: #62a7e7;
+  }
+
+  /* line 50, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .entry p {
+    margin: 0 auto;
+    color: #666666;
+    font-size: 14px;
+  }
+
+  /* line 55, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .appeal {
+    border: 1px solid #d1d1d1;
+    padding: 5px;
+    color: #666;
+    font-size: 12px;
+  }
+
+  /*-----------------------------------*/
+  /* line 63, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .columns {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    -webkit-column-fill: auto;
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -moz-column-fill: auto;
+    column-count: 3;
+    column-gap: 20px;
+    column-fill: auto;
+  }
+}
+@media screen and (min-width: 769px){
 body {
   background-color:#f1f1f1;
 }
@@ -9,12 +92,13 @@ body {
   margin-top:-10px;
 }
 .nav ul{
+  width:960px;
   margin:0 auto;
-  max-width:960px;
+
 }
 .nav ul li{
-  width:240px;
   margin-left:-7px;
+  width:240px;
   list-style:none;
   font-size:20px;
   float:left;
@@ -25,7 +109,6 @@ body {
   color:#fff;
   text-decoration:none;
   display:block;
-  width:auto;
 }
 .nav ul li a:hover{
   color:#af4474;
@@ -38,7 +121,7 @@ body {
 }
 
 h1{
-  max-width:960px;
+  width:960px;
   margin:0 auto;
 }
 .content_middle{
@@ -332,7 +415,7 @@ h1{
 }
 #rules_flow_chart .cursor{
   margin-top:50px;
-  margin-bottom:50px;
+  maegin-bottom:50px;
 }
 /*------------------ About us ----------------------*/
 #about{
@@ -424,48 +507,19 @@ h1{
   line-height: 2;
 }
 }
-/*------------------------------------------------------*/
-@media screen and (max-width:640px){
-body {
-  background-color:#f1f1f1;
-  width:640px;
-}
-.nav{
-  width:100%;
-  height:20px;
-  background-color:#dc7ead;
-  margin-top:-10px;
-}
-.nav ul li{
-  margin-left:-7px;
-  width:100px;
-  list-style:none;
-  font-size:10px;
-  float:left;
-  text-align:center;
-  line-height: 2;
-}
-.nav ul li a{
-  color:#fff;
-  text-decoration:none;
-  display:block;
-}
-.nav ul li a:hover{
-  color:#af4474;
-  text-decoration:none;
-}
-.to_top{
-  position:fixed;
-  right:2%;
-  bottom:1%;
-}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
 
-h1{
-  max-width:600px;
-  margin:0 auto;
-}
-.content_middle{
-  width:640px;
-  margin:0 auto;
-}
-}
+
+ */
+

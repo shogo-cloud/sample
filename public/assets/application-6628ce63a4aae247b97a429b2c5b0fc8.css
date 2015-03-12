@@ -1,3 +1,156 @@
+@charset "UTF-8";
+/*------------　部分テンプレート --------------*/
+@media screen and (min-width: 641px) {
+  /* line 11, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .entry {
+    inline: block;
+    float: left;
+    margin-top: 20px;
+    width: 278px;
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px 5px 5px 5px/ 5px 5px 5px 5px;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    -column-break-inside: avoid;
+  }
+
+  /* line 24, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .entry .image {
+    margin: 0 auto;
+  }
+
+  /* line 27, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  h2 {
+    font-size: 24px;
+    color: #e76286;
+    margin: 0;
+  }
+
+  /* line 32, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .evaluation {
+    float: right;
+    clear: both;
+  }
+
+  /* line 36, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .evaluation .button {
+    float: left;
+  }
+
+  /* line 39, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .evaluation .point {
+    float: right;
+    border: 1px solid #999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 2.2;
+    margin-left: 5px;
+    color: #62a7e7;
+  }
+
+  /* line 50, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .entry p {
+    margin: 0 auto;
+    color: #666666;
+    font-size: 14px;
+  }
+
+  /* line 55, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .appeal {
+    border: 1px solid #d1d1d1;
+    padding: 5px;
+    color: #666;
+    font-size: 12px;
+  }
+
+  /*-----------------------------------*/
+  /* line 63, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .columns {
+    -webkit-column-count: 3;
+    -webkit-column-gap: 20px;
+    -webkit-column-fill: auto;
+    -moz-column-count: 3;
+    -moz-column-gap: 20px;
+    -moz-column-fill: auto;
+    column-count: 3;
+    column-gap: 20px;
+    column-fill: auto;
+  }
+}
+/*------------　部分テンプレート --------------*/
+@media screen and (max-width: 640px) {
+  /* line 84, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  html {
+    width: 640px;
+  }
+
+  /* line 87, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .entry {
+    inline: block;
+    margin-top: 20px;
+    width: 278px;
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 5px 5px 5px 5px/ 5px 5px 5px 5px;
+    margin: 0 auto;
+  }
+
+  /* line 97, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .entry .image {
+    margin: 0 auto;
+  }
+
+  /* line 100, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  h2 {
+    font-size: 24px;
+    color: #e76286;
+    margin: 0;
+  }
+
+  /* line 105, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .evaluation {
+    float: right;
+    clear: both;
+  }
+
+  /* line 109, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .evaluation .button {
+    float: left;
+  }
+
+  /* line 112, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .evaluation .point {
+    float: right;
+    border: 1px solid #999;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 2.2;
+    margin-left: 5px;
+    color: #62a7e7;
+  }
+
+  /* line 123, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .entry p {
+    margin: 0 auto;
+    color: #666666;
+    font-size: 14px;
+  }
+
+  /* line 128, /Users/ONO/projects/miss.sato/app/assets/stylesheets/entries.scss */
+  .appeal {
+    border: 1px solid #d1d1d1;
+    padding: 5px;
+    color: #666;
+    font-size: 12px;
+  }
+}
 @media screen and (min-width: 640px){
 body {
   background-color:#f1f1f1;
@@ -38,7 +191,7 @@ body {
 }
 
 h1{
-  max-width:960px;
+  width:960px;
   margin:0 auto;
 }
 .content_middle{
@@ -332,7 +485,7 @@ h1{
 }
 #rules_flow_chart .cursor{
   margin-top:50px;
-  margin-bottom:50px;
+  maegin-bottom:50px;
 }
 /*------------------ About us ----------------------*/
 #about{
@@ -428,7 +581,6 @@ h1{
 @media screen and (max-width:640px){
 body {
   background-color:#f1f1f1;
-  width:640px;
 }
 .nav{
   width:100%;
@@ -461,11 +613,41 @@ body {
 }
 
 h1{
-  max-width:600px;
+  width:auto;
   margin:0 auto;
 }
 .content_middle{
-  width:640px;
+  width:960px;
   margin:0 auto;
 }
 }
+/* line 8, /Users/ONO/projects/miss.sato/app/assets/stylesheets/top.scss */
+fotter {
+  width: 100%;
+}
+
+/* line 11, /Users/ONO/projects/miss.sato/app/assets/stylesheets/top.scss */
+footer p {
+  border-top: 1px solid #d7d7d7;
+  font-size: 10px;
+  margin-top: 50px;
+  padding-top: 20px;
+  text-align: center;
+  color: #999;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
