@@ -71,6 +71,7 @@ footer{
 /*------------　部分テンプレート --------------*/
 @media all and (min-width:641px){
 .entry{
+  max-height:100%;
   inline:block;
   float:left;
   margin-top:20px;
