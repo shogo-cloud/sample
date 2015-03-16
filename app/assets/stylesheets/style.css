@@ -91,6 +91,7 @@ body {
   width:240px;
   border-radius: 5px 5px 5px 5px/5px 5px 5px 5px;
   border:1px solid #d9d9d9;
+  line-height: 3;
 }
 #new .send {
   text-align: center;
@@ -545,7 +546,7 @@ h1{
   width:500px;
   border-radius: 5px 5px 5px 5px/5px 5px 5px 5px;
   border:1px solid #d9d9d9;
-  line-height: 2;
+  line-height: 3;
 }
 #new .send {
   text-align: center;
