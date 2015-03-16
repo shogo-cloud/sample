@@ -91,7 +91,7 @@ body {
   border:1px solid #d9d9d9;
 }
 #new textarea{
-  line-height: 3;
+  line-height:300%;
   width:240px;
   border-radius: 5px 5px 5px 5px/5px 5px 5px 5px;
   border:1px solid #d9d9d9;
@@ -503,9 +503,7 @@ h1{
 
 
 /*---------------- 会員登録用CSS #newに注意 ------------------*/
-#new{
-  line-height: 3;
-}
+
 #new .form{
   width:598px;
   margin:0 auto;
@@ -543,13 +541,13 @@ h1{
 #new .area input{
   width:490px;
   margin:0 auto;
-  line-height: 3;
+  line-height:3;
   padding-left:10px;
   border-radius: 5px 5px 5px 5px/5px 5px 5px 5px;
   border:1px solid #d9d9d9;
 }
 #new textarea{
-  line-height:3;
+  line-height:300%;
   width:500px;
   border-radius: 5px 5px 5px 5px/5px 5px 5px 5px;
   border:1px solid #d9d9d9;
